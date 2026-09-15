@@ -1,0 +1,23 @@
+.DS_Store
+.env
+.env.*
+!.env.example
+*.py[cod]
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+.venv/
+qwen-env/
+
+# Downloaded weights and generated Core ML artifacts.
+models/
+*.mlmodelc/
+*.wav
+*.npz
+reports/
+
+# Local build and packaging output.
+dist/
+build/
+hf-release/
+*.rejected

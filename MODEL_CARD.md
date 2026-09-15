@@ -239,6 +239,6 @@ bundle. Component paths and tensor/audio contracts are recorded in
 
 The host assets were extracted from upstream revision
 `85e237c12c027371202489a0ec509ded67b5e4b5`; conversion source is maintained at
-[er-zhi/ai-engineering-boilerplate](https://github.com/er-zhi/ai-engineering-boilerplate/tree/main/native/tts-ane).
+[er-zhi/qwen3-tts-ane](https://github.com/er-zhi/qwen3-tts-ane).
 Qwen3-TTS and this distribution use Apache-2.0. See `LICENSE` and the upstream
 model card for details.
