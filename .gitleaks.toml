@@ -1,0 +1,9 @@
+minVersion = "v8.25.0"
+
+[extend]
+useDefault = true
+
+[[allowlists]]
+description = "TTS model API class name, not a credential"
+regexTarget = "line"
+regexes = ['''"python_api"\s*:\s*"qwen3_tts_ane\.Qwen3TTSANE"''']
